@@ -1,0 +1,37 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(47, 216, 25);
+    color:rgb(0, 0, 0);
+    font-family: 'Josefin Sans',Josefin Sans;
+    height: 70px;
+}
+nav{
+    background-color:rgb(47, 216, 25);
+    height: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding-right: 100px;
+}
+section{
+    display: flex;
+    height: 450px;
+}
+section article{
+    background-color: rgb(26, 199, 10);
+    width: 78%;
+}
+section aside{
+    background-color: rgb(26, 199, 10);
+}
+footer{
+    text-align: center;
+    width: 100%;
+}
